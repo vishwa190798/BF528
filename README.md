@@ -16,6 +16,16 @@ Paper: O’Meara et al. Transcriptional Reversion of Cardiac Myocyte Fate During
 
 ### Role: Analyst 
 
+#### Analyst_Role.R
+
+This script seperates the differentially expressed genes into up and down regulated genes along with histogram plots to visualize log2foldchange.
+
+* Dependencies: R
+
+* Input: cuffdiff output with differentially expressed genes (.csv file)
+
+* Output: Up-regulated genes, Down-regulated genes and top-10 differentially expressed genes (written in .csv files)
+
 ## Project 3
 
 Paper: Wang, Charles, Binsheng Gong, Pierre R. Bushel, Jean Thierry-Mieg, Danielle Thierry-Mieg, Joshua Xu, Hong Fang, et al. 2014. “A comprehensive study design reveals treatment- and transcript abundance–dependent concordance between RNA-seq and microarray data” Nature Biotechnology 32 (9): 926–32. PMID: 4243706
