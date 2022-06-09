@@ -8,6 +8,15 @@ Paper: Marisa et al. Gene Expression Classification of Colon Cancer into Molecul
 
 ### Role: Biologist
 
+#### Biologist_Role.R
+
+This script allows to further perform differential expression analysis, generate contingency tables, perform Fisher exact test, and statistical analysis of significantly enriched gene sets. 
+
+* Dependencies: R
+
+* Input: differential expression matrix from analyst (.csv file)
+
+* Output: top 3 enriched gene sets for each geneset type (.csv files)
 
 
 ## Project 2
